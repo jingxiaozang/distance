@@ -1,0 +1,91 @@
+nstates num 7;
+xread
+'File output by Morphobank v3.0 (http://www.morphobank.org); 2023-07-15 03.50.44'
+46 27
+
+&[num]
+Stylocellus_globosus               0000000000000000?00000000000000000000000000000
+Suzukielus_sauteri                 1030010101000211111130101111001010000100020010
+Siro_exilis                        1021010101010400?00030111001001010001?0100001?
+Paragovia_sironoides               1021110011001001000021000010111?11001?101?0100
+Ogovea_cameroonensis               1010110001001000?00010000010001111101?101?000?
+Troglosiro_sp.                     1021101011001101000030111111001011001?101?0???
+Stylocellus_ramblae                0000100010001000?010000000100000000000101?0???
+Huitaca_ventralis                  1020111011001111000031100011111?11001?101??00?
+Metagovea_philipi                  1020111011001101011031100011111?11001?101?0000
+Karripurcellia_peckorum            1130112011000200?000301011110001200101101?0000
+Chileogovea_oedipus                1130112011001300?1103000111100112000010101001?
+Paramiopsalis_ramulosus            1020010101110400?00040110011001010002000000010
+Iberosiro_distylos                 1020000101110500?000301100110020100020101?????
+Parasiro_coiffaiti                 12200000010102011110301111010010100020101?0011
+Parasiro_minor                     12200000010002010110301111010010100020101?0011
+Parasiro_corsicus                  12200000010002110110301111010010100020101?0011
+Odontosiro_lusitanicus             12??0000011000111110300?1???0?????001?101?0010
+Cyphophthalmus_duricorius          1021000101000400?00030111111003010001?01000010
+Cyphophthalmus_serbicus            1021000101000400?00030111111003010001?01000???
+Siro_rubens                        1021010101000400?00030111111003010001?00001010
+Siro_valleorum                     1021010101000400?00030111101001010001?00001?10
+Tranteeva_paradoxa                 1020010101010400?00030111111003010001?01000010
+Siro_sonoma                        1021010001010400?11030111001001010001?01000??0
+Siro_acaroides                     1021010101010400?11030111101001010001?11000010
+Siro_kamiakensis                   1021010101010400?00130111001001010001?0100000?
+Marwe_coarctata                    1240010101010600?000301100?100001?001?101?0??0
+Metasiro_americanus                1020111011000111010051101011011010003?11010000
+
+;
+
+
+cnames
+{ 0 Eyes present absent;
+{ 1 Ozophore_position type_2 dorsal,_facing_45_degrees type_1;
+{ 2 Ozophore_end infolded labial plugged terminal_ozopore,_with_circular_opening disc-shaped;
+{ 3 Spiral_ornamentation_of_the_ozophore absent present;
+{ 4 Widest_part_of_cheliceral_distal_article near_articulation_with_mobile_digit near_base;
+{ 5 Distal_segment_of_chelicerae_ornamented present absent;
+{ 6 Dentition_of_the_mobile_digit_of_the_chelicerae uniform bilobed_with_smaller_lobe_distal two_types_of_dentition;
+{ 7 Basal_article_of_chelicerae_with_dorsal_crest present absent;
+{ 8 Basal_article_of_chelicerae_with_a_ventral_process absent present;
+{ 9 Basal_article_of_chelicerae_with_a_second_ventral_process present absent;
+{ 10 Palp_trocanther_with_ventral_process absent present;
+{ 11 Ornamentation_of_second_palp_article present_along_ventral_margin absent;
+{ 12 Solea_in_tarsus_I absent present;
+{ 13 Leg_II_ornamentation metatarsus_ornamented_and_tarsus_almost_entirely_ornamented metatarsus_ornamented_and_tarsus_smooth metatarsus_partially_ornamented_and_tarsus_smooth metatarsus_and_dorso-basal_part_of_the_tarsus_ornamented metatarsus_and_tarsus_smooth metatarsus_smooth_and_tarsus_partially_ornamented all_segments_smooth;
+{ 14 Claw_of_leg_I_with_modifications absent present;
+{ 15 Claw_of_leg_II_with_modifications absent present;
+{ 16 Claw_of_leg_II_with_special_row_of_teeth_forming_a_comb present absent;
+{ 17 Claw_of_leg_III_with_modifications absent present;
+{ 18 Claw_of_leg_IV_with_modifications absent present;
+{ 19 Male_tarsus_IV entire bisegmented;
+{ 20 Adenostyle ending_in_a_tuft_of_setae triangular_and_heavily_schlerotized digitiform lamelliform plumose fimbriate;
+{ 21 Adenostyle_in_the_most-basal_region_of_the_tarsus absent present;
+{ 22 Ornamentation_of_tarsi_III_and_IV ornamented smooth;
+{ 23 Proximal_end_of_coxae_I_meeting_along_the_midline absent present;
+{ 24 Second_coxae fused_to_coxae_of_leg_III free;
+{ 25 Proximal_end_of_male_coxae_III_meeting_along_the_midline absent present;
+{ 26 Coxae_II_and_III_endites_with_processes_running_along_their_suture absent present;
+{ 27 Sternum present absent;
+{ 28 Gonostome_of_male_in_anterior_position absent present;
+{ 29 Shape_of_the_gonostome semicircular-trapezoidal sub-hexagonal;
+{ 30 Anterior_projections_of_male_coxae_III_endite no_projections projections_in_gonostome_wall projections_along_coxae_IV_suture projections_adjacent_to_coxal_pore;
+{ 31 Endites_of_coxae_IV_running_adjacent_to_midline_suture_for_a_length_longer_than_gonostome absent present;
+{ 32 Spiracle_shape "C"_shaped circular open_circle;
+{ 33 Male_sternal_glands absent present;
+{ 34 Sternal_apophysis_of_male absent present;
+{ 35 V-shape_modification_of_sternites_6-8 absent present;
+{ 36 Sternite_8,_9,_and_tergite_IX all_free all_fused_into_corona_analis sternites_8_and_9_medially_fused sternites_8_and_9_completely_fused,_tergite_IX_free;
+{ 37 Relative_position_of_sternite_9_and_tergite_IX stylocelloid_type pettalid_type;
+{ 38 Longitudinal_carina_in_male_anal_plate present absent;
+{ 39 Lack_of_ornamentation_in_midline_of_male_anal_plate absent present;
+{ 40 Male_abdominal_exocrine_glands_(anal_glands) present absent;
+{ 41 Opening_of_male_abdominal_exocrine_glands_(anal_glands) in_tergite_VIII in_tergite_IX in_both_tergites_VIII_and_IX;
+{ 42 Posterior_elongation_of_opisthosoma_in_female absent present;
+{ 43 Ventral_setae_of_penis present absent;
+{ 44 Movable_fingers_of_penis absent present;
+{ 45 Ovipositor_with_sense_organs present absent;
+;
+
+
+ccode  - 0.45;
+
+
+;
