@@ -2,12 +2,12 @@ library(ape)
 library(TreeDist)
 library(TreeTools)
 
-ew_tree <- ReadTntTree("C:/TNT/TNT-bin/projects/project44/ew.tre")
-iw10_tree <- ReadTntTree("C:/TNT/TNT-bin/projects/project44/iw10.tre")
-iqtree <- read.tree("C:/app/iqtree-1.6.12-Windows/projects/project44/project44.phy.treefile")
+ew_tree <- ReadTntTree("ew.tre", "./")
+iw10_tree <- ReadTntTree("iw10.tre", "./")
+iqtree <- read.tree("project44.phy.treefile")
 
 Relabel <- function(tree) {
-  tree$tip.label <- gsub("_ | ", "", tree$tip.label)
+  tree$tip.label <- gsub("_| ", "", tree$tip.label)
   tree
 }
 ew_tree <- lapply(ew_tree, Relabel)
