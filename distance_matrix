@@ -1,0 +1,44 @@
+library(ape)
+library(TreeDist)
+library(TreeTools)
+
+iqtree <- read.tree("C:/app/iqtree-1.6.12-Windows/projects/project44/project44.phy.treefile")
+
+get_project_path <- function(path) {
+  project_num <- regmatches(path, regexpr("project[0-9]+", path))
+  paste0("C:/TNT/TNT-bin/projects/", project_num, "/")
+}
+
+# ew.tre
+ew_path <- "C:/TNT/TNT-bin/projects/project44/ew.tre"
+ew_tree <- ReadTntTree(ew_path)
+
+# iw10.tre
+iw10_tree <- ReadTntTree("C:/TNT/TNT-bin/projects/project44/iw10.tre")
+
+Relabel <- function(tree) {
+  tree$tip.label <- gsub("_| ", "", tree$tip.label)
+  tree
+}
+
+ew_tree <- lapply(ew_tree, Relabel)
+iw10_tree <- lapply(iw10_tree, Relabel)
+
+# distance
+distance1 <- ClusteringInfoDistance(ew_tree, iqtree)
+distance2 <- ClusteringInfoDistance(iw10_tree, iqtree)
+distance3 <- ClusteringInfoDistance(ew_tree, iw10_tree)
+
+distance_matrix <- matrix(c(distance1, distance2, distance3),byrow = TRUE)
+print(distance_matrix)
+
+# save distance_matrix
+output_path <- paste0(get_project_path(ew_path), "distance_matrix.txt")
+write.table(distance_matrix, file = output_path, sep = "\t", row.names = FALSE, col.names = FALSE)
+
+# min distance
+min_distance <- min(distance_matrix)
+print(paste("The minimum distance in the matrix is:", min_distance))
+# save min distance
+min_distance_path <- paste0(get_project_path(ew_path), "min_distance.txt")
+write.table(min_distance, file = min_distance_path, col.names = FALSE, row.names = FALSE)
