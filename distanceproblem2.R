@@ -7,7 +7,7 @@ iw10_tree <- ReadTntTree("iw10.tre", "./")
 iqtree <- read.tree("project44.phy.treefile")
 
 Relabel <- function(tree) {
-  tree$tip.label <- gsub("_ | ", "", tree$tip.label)
+  tree$tip.label <- gsub("_| ", "", tree$tip.label)
   tree
 }
 ew_tree <- lapply(ew_tree, Relabel)
