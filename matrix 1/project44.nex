@@ -1,0 +1,328 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-07-15 03.42.31 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=27;
+    TAXLABELS
+    		'Stylocellus globosus'
+		'Suzukielus sauteri'
+		'Siro exilis'
+		'Paragovia sironoides'
+		'Ogovea cameroonensis'
+		'Troglosiro sp.'
+		'Stylocellus ramblae'
+		'Huitaca ventralis'
+		'Metagovea philipi'
+		'Karripurcellia peckorum'
+		'Chileogovea oedipus'
+		'Paramiopsalis ramulosus'
+		'Iberosiro distylos'
+		'Parasiro coiffaiti'
+		'Parasiro minor'
+		'Parasiro corsicus'
+		'Odontosiro lusitanicus'
+		'Cyphophthalmus duricorius'
+		'Cyphophthalmus serbicus'
+		'Siro rubens'
+		'Siro valleorum'
+		'Tranteeva paradoxa'
+		'Siro sonoma'
+		'Siro acaroides'
+		'Siro kamiakensis'
+		'Marwe coarctata'
+		'Metasiro americanus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=46;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		 [1] 'Eyes'
+		 [2] 'Ozophore position'
+		 [3] 'Ozophore end'
+		 [4] 'Spiral ornamentation of the ozophore'
+		 [5] 'Widest part of cheliceral distal article'
+		 [6] 'Distal segment of chelicerae ornamented'
+		 [7] 'Dentition of the mobile digit of the chelicerae'
+		 [8] 'Basal article of chelicerae with dorsal crest'
+		 [9] 'Basal article of chelicerae with a ventral process'
+		 [10] 'Basal article of chelicerae with a second ventral process'
+		 [11] 'Palp trocanther with ventral process'
+		 [12] 'Ornamentation of second palp article'
+		 [13] 'Solea in tarsus I'
+		 [14] 'Leg II ornamentation'
+		 [15] 'Claw of leg I with modifications'
+		 [16] 'Claw of leg II with modifications'
+		 [17] 'Claw of leg II with special row of teeth forming a comb'
+		 [18] 'Claw of leg III with modifications'
+		 [19] 'Claw of leg IV with modifications'
+		 [20] 'Male tarsus IV'
+		 [21] 'Adenostyle'
+		 [22] 'Adenostyle in the most-basal region of the tarsus'
+		 [23] 'Ornamentation of tarsi III and IV'
+		 [24] 'Proximal end of coxae I meeting along the midline'
+		 [25] 'Second coxae'
+		 [26] 'Proximal end of male coxae III meeting along the midline'
+		 [27] 'Coxae II and III endites with processes running along their suture'
+		 [28] 'Sternum'
+		 [29] 'Gonostome of male in anterior position'
+		 [30] 'Shape of the gonostome'
+		 [31] 'Anterior projections of male coxae III endite'
+		 [32] 'Endites of coxae IV running adjacent to midline suture for a length longer than gonostome'
+		 [33] 'Spiracle shape'
+		 [34] 'Male sternal glands'
+		 [35] 'Sternal apophysis of male'
+		 [36] 'V-shape modification of sternites 6-8'
+		 [37] 'Sternite 8, 9, and tergite IX'
+		 [38] 'Relative position of sternite 9 and tergite IX'
+		 [39] 'Longitudinal carina in male anal plate'
+		 [40] 'Lack of ornamentation in midline of male anal plate'
+		 [41] 'Male abdominal exocrine glands (anal glands)'
+		 [42] 'Opening of male abdominal exocrine glands (anal glands)'
+		 [43] 'Posterior elongation of opisthosoma in female'
+		 [44] 'Ventral setae of penis'
+		 [45] 'Movable fingers of penis'
+		 [46] 'Ovipositor with sense organs'
+	;
+	STATELABELS
+		1
+		'present'
+		'absent'
+		,
+		2
+		'type 2'
+		'dorsal, facing 45 degrees'
+		'type 1'
+		,
+		3
+		'infolded'
+		'labial'
+		'plugged'
+		'terminal ozopore, with circular opening'
+		'disc-shaped'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'near articulation with mobile digit'
+		'near base'
+		,
+		6
+		'present'
+		'absent'
+		,
+		7
+		'uniform'
+		'bilobed with smaller lobe distal'
+		'two types of dentition'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'present'
+		'absent'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'present along ventral margin'
+		'absent'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'metatarsus ornamented and tarsus almost entirely ornamented'
+		'metatarsus ornamented and tarsus smooth'
+		'metatarsus partially ornamented and tarsus smooth'
+		'metatarsus and dorso-basal part of the tarsus ornamented'
+		'metatarsus and tarsus smooth'
+		'metatarsus smooth and tarsus partially ornamented'
+		'all segments smooth'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'entire'
+		'bisegmented'
+		,
+		21
+		'ending in a tuft of setae'
+		'triangular and heavily schlerotized'
+		'digitiform'
+		'lamelliform'
+		'plumose'
+		'fimbriate'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'ornamented'
+		'smooth'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'fused to coxae of leg III'
+		'free'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'present'
+		'absent'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'semicircular-trapezoidal'
+		'sub-hexagonal'
+		,
+		31
+		'no projections'
+		'projections in gonostome wall'
+		'projections along coxae IV suture'
+		'projections adjacent to coxal pore'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'"C" shaped'
+		'circular'
+		'open circle'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'all free'
+		'all fused into corona analis'
+		'sternites 8 and 9 medially fused'
+		'sternites 8 and 9 completely fused, tergite IX free'
+		,
+		38
+		'stylocelloid type'
+		'pettalid type'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'present'
+		'absent'
+		,
+		42
+		'in tergite VIII'
+		'in tergite IX'
+		'in both tergites VIII and IX'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'present'
+		'absent'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'present'
+		'absent'
+		
+	;
+	MATRIX
+	'Stylocellus globosus'		               0000000000000000?00000000000000000000000000000
+	'Suzukielus sauteri'		                 1030010101000211111130101111001010000100020010
+	'Siro exilis'		                        1021010101010400?00030111001001010001?0100001?
+	'Paragovia sironoides'		               1021110011001001000021000010111?11001?101?0100
+	'Ogovea cameroonensis'		               1010110001001000?00010000010001111101?101?000?
+	'Troglosiro sp.'		                     1021101011001101000030111111001011001?101?0???
+	'Stylocellus ramblae'		                0000100010001000?010000000100000000000101?0???
+	'Huitaca ventralis'		                  1020111011001111000031100011111?11001?101??00?
+	'Metagovea philipi'		                  1020111011001101011031100011111?11001?101?0000
+	'Karripurcellia peckorum'		            1130112011000200?000301011110001200101101?0000
+	'Chileogovea oedipus'		                1130112011001300?1103000111100112000010101001?
+	'Paramiopsalis ramulosus'		            1020010101110400?00040110011001010002000000010
+	'Iberosiro distylos'		                 1020000101110500?000301100110020100020101?????
+	'Parasiro coiffaiti'		                 12200000010102011110301111010010100020101?0011
+	'Parasiro minor'		                     12200000010002010110301111010010100020101?0011
+	'Parasiro corsicus'		                  12200000010002110110301111010010100020101?0011
+	'Odontosiro lusitanicus'		             12??0000011000111110300?1???0?????001?101?0010
+	'Cyphophthalmus duricorius'		          1021000101000400?00030111111003010001?01000010
+	'Cyphophthalmus serbicus'		            1021000101000400?00030111111003010001?01000???
+	'Siro rubens'		                        1021010101000400?00030111111003010001?00001010
+	'Siro valleorum'		                     1021010101000400?00030111101001010001?00001?10
+	'Tranteeva paradoxa'		                 1020010101010400?00030111111003010001?01000010
+	'Siro sonoma'		                        1021010001010400?11030111001001010001?01000??0
+	'Siro acaroides'		                     1021010101010400?11030111101001010001?11000010
+	'Siro kamiakensis'		                   1021010101010400?00130111001001010001?0100000?
+	'Marwe coarctata'		                    1240010101010600?000301100?100001?001?101?0??0
+	'Metasiro americanus'		                1020111011000111010051101011011010003?11010000
+    ;
+    ENDBLOCK;
+
+          BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 46;
+ENDBLOCK;

@@ -1,0 +1,148 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: project44.phy
+Type of analysis: tree reconstruction
+Random seed number: 760568
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 27 sequences with 46 morphological sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 43
+Number of distinct site patterns: 45
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: MK+FQ+ASC
+
+State frequencies: (equal frequencies)
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -798.2967 (s.e. 44.4356)
+Unconstrained log-likelihood (without tree): -174.7312
+Number of free parameters (#branches + #model parameters): 51
+Akaike information criterion (AIC) score: 1698.5934
+Corrected Akaike information criterion (AICc) score: 7002.5934
+Bayesian information criterion (BIC) score: 1791.8541
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 51
+Sample size (n, alignment length): 46
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 3.5858
+Sum of internal branch lengths: 2.0686 (57.6896% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0217) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Stylocellusglobosus' is drawn at root
+
++----Stylocellusglobosus
+|
+|                                         +--Suzukielussauteri
+|                                    +----|
+|                                    |    |      +-----Karripurcelliapeckorum
+|                                    |    +------|
+|                                    |           +--Chileogoveaoedipus
+|                                 +--|
+|                                 |  |             +**Siroexilis
+|                                 |  |          +**|
+|                                 |  |          |  +--Sirokamiakensis
+|                                 |  |       +--|
+|                                 |  |       |  |     +--Paramiopsalisramulosus
+|                                 |  |       |  |  +--|
+|                                 |  |       |  |  |  |  +--Iberosirodistylos
+|                                 |  |       |  |  |  +--|
+|                                 |  |       |  |  |     +----Marwecoarctata
+|                                 |  |       |  +--|
+|                                 |  |       |     |        +**Cyphophthalmusduricorius
+|                                 |  |       |     |     +--|
+|                                 |  |       |     |     |  +**Cyphophthalmusserbicus
+|                                 |  |       |     |  +--|
+|                                 |  |       |     |  |  |  +**Sirorubens
+|                                 |  |       |     |  |  +--|
+|                                 |  |       |     |  |     +--Sirovalleorum
+|                                 |  |       |     +--|
+|                                 |  |       |        +**Tranteevaparadoxa
+|                                 |  |    +--|
+|                                 |  |    |  +--Sirosonoma
+|                                 |  +----|
+|                                 |       +**Siroacaroides
+|                       +---------|
+|                       |         |     +--Parasirocoiffaiti
+|                       |         |  +--|
+|                       |         |  |  |  +**Parasirominor
+|                       |         |  |  +**|
+|                       |         |  |     +--Parasirocorsicus
+|                       |         +--|
+|                       |            +---Odontosirolusitanicus
+|                +------|
+|                |      +**Troglosirosp.
+|            +---|
+|            |   |     +**Huitacaventralis
+|            |   |  +--|
+|            |   |  |  +-------Metasiroamericanus
+|            |   +**|
+|            |      +--Metagoveaphilipi
+|       +----|
+|       |    +--Paragoviasironoides
++-------|
+|       +--Ogoveacameroonensis
+|
++--Stylocellusramblae
+
+Tree in newick format:
+
+(Stylocellusglobosus:0.1446040594,(((((((Suzukielussauteri:0.0716503830,(Karripurcelliapeckorum:0.1710382433,Chileogoveaoedipus:0.1075266019):0.2075227214):0.1522510942,((((Siroexilis:0.0000023439,Sirokamiakensis:0.0462992683):0.0000023276,((Paramiopsalisramulosus:0.0247424415,(Iberosirodistylos:0.0543547498,Marwecoarctata:0.1505509181):0.0838636599):0.1036566875,(((Cyphophthalmusduricorius:0.0000023439,Cyphophthalmusserbicus:0.0000023439):0.0223806745,(Sirorubens:0.0000023439,Sirovalleorum:0.0463001855):0.0455712768):0.0331460075,Tranteevaparadoxa:0.0120159191):0.0456905515):0.0325053653):0.0447982454,Sirosonoma:0.0234152387):0.0447914445,Siroacaroides:0.0000026062):0.1369071745):0.0630555699,((Parasirocoiffaiti:0.0224275850,(Parasirominor:0.0000023439,Parasirocorsicus:0.0218395302):0.0214262135):0.0510477329,Odontosirolusitanicus:0.1274750400):0.0228991349):0.2794956294,Troglosirosp.:0.0135091032):0.1919074081,((Huitacaventralis:0.0000027167,Metasiroamericanus:0.2359137532):0.0233212780,Metagoveaphilipi:0.0463600616):0.0000028675):0.1132872446,Paragoviasironoides:0.0568598880):0.1385234697,Ogoveacameroonensis:0.0922938184):0.2329486469,Stylocellusramblae:0.0255835998);
+
+TIME STAMP
+----------
+
+Date and time: Sat Jul 01 14:59:59 2023
+Total CPU time used: 14.7656 seconds (0h:0m:14s)
+Total wall-clock time used: 42.4557 seconds (0h:0m:42s)
+
